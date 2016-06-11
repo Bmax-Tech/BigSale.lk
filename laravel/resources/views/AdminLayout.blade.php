@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="{{ URL::asset('assets/Admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
     <!-- Image Picker style -->
     <link rel="stylesheet" href="{{ URL::asset('assets/Admin/plugins/image-picker/image-pickerCSS.css') }}">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="{{ URL::asset('assets/Admin/plugins/datatables/dataTables.bootstrap.css') }}">
     <!-- AdminCSS style -->
     <link rel="stylesheet" href="{{ URL::asset('assets/Admin/AdminCSS.css') }}">
 

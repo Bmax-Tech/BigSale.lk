@@ -29,8 +29,8 @@ class AdminController extends ExceptionController
             $HTMLView = (String) view('AdminPanel.Home');
         }else if($pageType == "ProductAdd"){
             $HTMLView = (String) view('AdminPanel.Product_Add');
-        }else if($pageType == "ProductUpdate"){
-            $HTMLView = (String) view('AdminPanel.Product_Update');
+        }else if($pageType == "ProductView"){
+            $HTMLView = (String) view('AdminPanel.Product_View');
         }
 
         // Put all data into Single Object
